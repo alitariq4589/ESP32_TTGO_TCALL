@@ -1,7 +1,7 @@
 # ESP32_TTGO_TCALL
-This repository contains the source code(s) for `esp32 TTGO T-CALL module BLYNK v1.4`. Platform used for project is a VSCode extention called `Platformio`.
+This repository contains the source code(s) for `esp32 TTGO T-CALL module BLYNK v1.4`.
 
-## Initializing the project  
+## For PlatformIO  
 
 The project can be initialized with following command.
 
@@ -15,4 +15,18 @@ The project can be built and run at the same time with following command:
 
 ```shell
 pio run -t upload
+```
+
+## For MicroPython
+
+On linux, execute following command:
+
+```shell
+pip install esptool
+```  
+
+For erasing the flash, execute following command:  
+
+```shell
+esptool.py --port /dev/ttyUSB0 erase_flash
 ```
