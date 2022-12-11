@@ -19,14 +19,10 @@ pio run -t upload
 
 ## For MicroPython
 
-On linux, execute following command:
+For micropython, thonny is used. Install thonny on linux and flash the device with firmware.  
+For flashing the device with firmware, follow the steps below:  
 
-```shell
-pip install esptool
-```  
-
-For erasing the flash, execute following command:  
-
-```shell
-esptool.py --port /dev/ttyUSB0 erase_flash
-```
+- Download the firmware for ESP32 from micropython page (it is included in the repository)
+- Open thonny editor and go to `Run > Configure Interpreter...`
+- Click on `install or update micropython`
+- Select `.bin` firmware file and select the port with which the device is conneceted (also erase the flash)
