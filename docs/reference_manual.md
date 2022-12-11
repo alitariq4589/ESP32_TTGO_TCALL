@@ -1,6 +1,4 @@
-# Product
-
-![](../image/SIM800L_IP5306.jpg)
+# ESP32 T-CALL
 
 
 ## Examples for SIM800L IP5306 Version
@@ -24,9 +22,3 @@
 | POWER Chip SDA |     21     |     21     |
 | POWER Chip SCL |     22     |     22     |
 |      LED       |     ❌      |     13     |
-
-## Sleep current
-![](../image/SIM800L_IP5306_SLEEP.jpg)
-
-# SD card connection
-![](../image/SIM800L-IP5306-SD.jpg)
