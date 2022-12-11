@@ -1,9 +1,9 @@
 # ESP32 T-CALL
 
 ## Pinout
-
-![pinout][../docs/ESP32_TTGO_T-CALL.jpg]
-
+  
+![pinout][../docs/ESP32_TTGO_T-CALL.jpg]  
+  
 ## Examples for SIM800L IP5306 Version
 
 - Loboris Micropython: [/examples/MicroPython_LoBo](../examples/MicroPython_LoBo)
