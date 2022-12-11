@@ -1,5 +1,8 @@
 # ESP32 T-CALL
 
+## Pinout
+
+![pinout][ESP32_TTGO_T-CALL.jpg]
 
 ## Examples for SIM800L IP5306 Version
 
