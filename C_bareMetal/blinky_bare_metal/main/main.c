@@ -1,5 +1,5 @@
 // It applies logic 1 on a GPIO pin 13 of Lilygo TTCALL ESP32 module
-#define GPIO_FUNC13_OUT_SEL_CFG_REG *(volatile unsigned long *) 0x3FF44564
+#define GPIO_FUNC13_OUT_SEL_CFG_REG				*(volatile unsigned long *) 0x3FF44564
 #define GPIO_ENABLE_REG				*(volatile unsigned long *) 0x3FF44020
 #define IO_MUX_MTCK_REG 			*(volatile unsigned long *) 0x3FF49038
 #define GPIO_OUT_REG				*(volatile unsigned long *) 0x3FF44004
