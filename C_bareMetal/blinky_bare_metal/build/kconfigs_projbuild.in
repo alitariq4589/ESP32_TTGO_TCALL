@@ -1,0 +1,6 @@
+source "/home/ali/custom_installed/eclipse/ESP-IDF/ESP_v5.0/esp-idf-v5.0/components/bootloader/Kconfig.projbuild"
+source "/home/ali/custom_installed/eclipse/ESP-IDF/ESP_v5.0/esp-idf-v5.0/components/esp_app_format/Kconfig.projbuild"
+source "/home/ali/custom_installed/eclipse/ESP-IDF/ESP_v5.0/esp-idf-v5.0/components/esp_rom/Kconfig.projbuild"
+source "/home/ali/custom_installed/eclipse/ESP-IDF/ESP_v5.0/esp-idf-v5.0/components/esptool_py/Kconfig.projbuild"
+source "/home/ali/custom_installed/eclipse/ESP-IDF/ESP_v5.0/esp-idf-v5.0/components/partition_table/Kconfig.projbuild"
+source "/home/ali/eclipse-workspace/blinky_bare_metal/main/Kconfig.projbuild"

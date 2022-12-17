@@ -1,0 +1,4 @@
+-- Project is not inside a git repository, or git repository has no commits; will not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Configuring incomplete, errors occurred!
+See also "/home/ali/eclipse-workspace/blinky_bare_metal/build/CMakeFiles/CMakeOutput.log".

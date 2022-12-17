@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/ali/eclipse-workspace/blinky_bare_metal/build/CMakeFiles/bootloader
+/home/ali/eclipse-workspace/blinky_bare_metal/build/CMakeFiles/bootloader.rule
+/home/ali/eclipse-workspace/blinky_bare_metal/build/CMakeFiles/bootloader-complete.rule
+/home/ali/eclipse-workspace/blinky_bare_metal/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/ali/eclipse-workspace/blinky_bare_metal/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/ali/eclipse-workspace/blinky_bare_metal/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/ali/eclipse-workspace/blinky_bare_metal/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/ali/eclipse-workspace/blinky_bare_metal/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/ali/eclipse-workspace/blinky_bare_metal/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/ali/eclipse-workspace/blinky_bare_metal/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
