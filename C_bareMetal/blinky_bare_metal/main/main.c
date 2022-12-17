@@ -3,9 +3,6 @@
 #define GPIO_ENABLE_REG				*(volatile unsigned long *) 0x3FF44020
 #define IO_MUX_MTCK_REG 			*(volatile unsigned long *) 0x3FF49038
 #define GPIO_OUT_REG				*(volatile unsigned long *) 0x3FF44004
-#define GPIO_OUT_W1TS_REG			*(volatile unsigned long *) 0x3FF44008
-#define GPIO_ENABLE_W1TS_REG		*(volatile unsigned long *) 0x3FF44024
-#define GPIO_OUT_W1TC_REG			*(volatile unsigned long *) 0x3FF4400C
 void delay(long long unsigned int iterations_squared);
 
 void app_main(void){
