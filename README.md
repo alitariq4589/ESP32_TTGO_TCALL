@@ -10,7 +10,7 @@ pio init -b <Board ID> # Here Board ID can be obtained by searching for the desi
 ```
 Choose the board as `Espressif ESP32 Dev Module`.  
 
-## Building and running the project
+### Building and running the project
 The project can be built and run at the same time with following command:
 
 ```shell
