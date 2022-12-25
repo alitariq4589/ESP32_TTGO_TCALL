@@ -1,3 +1,5 @@
+// This sets UART Baud rate 115200 and transfers data on respective COM port via USB with which it is connected to computer
+
 // GPIO Registers base addresses
 #define GPIO_FUNC1_OUT_SEL_CFG_REG 	*(volatile unsigned long *) 0x3FF44534
 #define GPIO_FUNC3_IN_SEL_CFG_REG	*(volatile unsigned long *) 0x3FF4413C
@@ -8,7 +10,6 @@
 
 //UART0 Registers base addresses
 #define UART0_CONFIG0_REG 			*(volatile unsigned long *) 0x3FF40020
-#define UART0_CONFIG1_REG 			*(volatile unsigned long *) 0x3FF40024
 #define UART0_CLKDIV_REG 			*(volatile unsigned long *) 0x3FF40014
 #define UART0_FIFO_REG	 			*(volatile unsigned long *) 0x3FF40000
 
@@ -25,7 +26,10 @@ void app_main(void){
 	GPIO_ENABLE_REG  			|= 	1<<3;	//Enabling GPIO PAD 3
 
 	//UART0 Register configurations
-	UART0_CONFIG0_REG	|=	0x800001C;
+	UART0_CONFIG0_REG	|=	0x800001C; // Configuring UART
+	UART0_CLKDIV_REG	|= 	0x2B6; // Setting the baud rate as 115200. Expression: UART_CLK_DIV=APBCLK/BAUD_RATE
+
+	//Printing abc in terminal
 	UART0_FIFO_REG		=	'a';
 	UART0_FIFO_REG		=	'b';
 	UART0_FIFO_REG		=	'c';
