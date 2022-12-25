@@ -1,5 +1,5 @@
 # ESP32_TTGO_TCALL
-This repository contains the source code(s) for `esp32 TTGO T-CALL module BLYNK v1.4`.
+This repository contains the source code(s) for `esp32 TTGO T-CALL module BLYNK v1.3`.
 
 ## For PlatformIO  
 
@@ -26,3 +26,14 @@ For flashing the device with firmware, follow the steps below:
 - Open thonny editor and go to `Run > Configure Interpreter...`
 - Click on `install or update micropython`
 - Select `.bin` firmware file and select the port with which the device is conneceted (also erase the flash)
+
+
+## For Eclipse
+For eclipse, install esp-idf plugin from eclipse marketplace by going to `help > Eclipse Marketplace...`. After the download is complete install ESP-IDF by going to `Espressif > ESP-IDF Tools manager > Install tools`. After the installation is complete, create new project of type `esp-idf` by going to `File > New > Other... >Espressif IDF Project`  
+
+## Directory Structure
+The directory structure source codes are in the following sequence:  
+
+- **Arduino**: This directory contains the source code for ESP32 Lilygo TTGO T-CALL based on arduino
+- **C_bareMetal**: This directory contains source code for ESP32 Lilygo TTGO T-CALL based on bare metal programming. But this requires main file to be created in esp-idf project in eclipse
+- **Micropython**: This directory contains projects written in micropython and configured on `Thonny` IDE
