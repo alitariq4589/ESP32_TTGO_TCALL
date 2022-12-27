@@ -1,5 +1,5 @@
 # ESP32_TTGO_TCALL
-This repository contains the source code(s) for `esp32 TTGO T-CALL module BLYNK v1.3`.
+This repository contains the source code(s) for `esp32 TTGO T-CALL module BLYNK v1.3` with bare metal and also with abstractions.
 
 ## For PlatformIO  
 
